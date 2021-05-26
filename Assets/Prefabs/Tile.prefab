@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2671470786622591626}
   - component: {fileID: 2671470786622591624}
   - component: {fileID: 2671470786622591625}
+  - component: {fileID: 7188009595246422069}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -98,7 +99,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: -99,-99
+  m_text: 0,0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -170,6 +171,18 @@ MonoBehaviour:
   _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
+--- !u!114 &7188009595246422069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2671470786622591627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a842e4f1b744c4c8791992db3b439f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2671470787336910614
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +192,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2671470787336910613}
+  - component: {fileID: 7680799346245514964}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -202,6 +216,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7680799346245514964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2671470787336910614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409dfd70945251f48b4e2e7165e9e05a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2671470787481019814
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,7 +287,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: abdc71ed1366132469526db26136d2a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
